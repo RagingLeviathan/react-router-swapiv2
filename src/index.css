@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  background: #c7c7c7;
+  text-align: center;
+}
+
+.nav-item {
+  display: inline-block;
+  float: none;
+  padding: 6px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #101010;
+}
+
+.nav-item a:active {
+  color: silver;
+}
+
+h1 {
+  padding-top: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+.fill {
+  min-height: 100%;
+  height:100%;
+}
+
+.container1 {
+  background: rgba(220,220,220,0.2);
+}
+
+.container2 {
+  height: 100%;
+  min-height:100%;
+  /*background: rgba(254, 248, 79, 0.659);*/
+}
+
+.allFilms h2 {
+  background: yellow;
+}
+
+.allFilms p {
+  text-align: justify;
+  padding: 5px;
+}
+
+.about p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 25px;
+}
+
+.loaderCon {
+  width:45%;
+
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.spinz {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  top: 60%;
+  left: 30%;
+  margin-top: -50px;
+ /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 50 50'%3E%3Cpath d='M28.43 6.378C18.27 4.586 8.58 11.37 6.788 21.533c-1.791 10.161 4.994 19.851 15.155 21.643l.707-4.006C14.7 37.768 9.392 30.189 10.794 22.24c1.401-7.95 8.981-13.258 16.93-11.856l.707-4.006z'%3E%3CanimateTransform attributeType='xml' attributeName='transform' type='rotate' from='0 25 25' to='360 25 25' dur='0.6s' repeatCount='indefinite'/%3E%3C/path%3E%3C/svg%3E") center / 50px no-repeat;
+*/
+}
+
+.navStyle {
+  box-shadow: 0px 5px #ffff00, 0px 10px black;
+  margin-bottom: 10px;
+}
+
+.nameStyle {
+  color: yellow;
+  font-size: 26px;
+  font-weight: bolder;
+  -webkit-text-stroke: medium black; 
+  text-stroke: medium black;
+}
+
+.nameOfThing {
+  padding-left:6px;
+}
